@@ -2,8 +2,8 @@
     {
         "type": "git",
         "url": "https://gitlab.gnome.org/theCapypara/rdw",
-        "commit": "b35b39a1419da824951bd0589b527c412e6829e5",
-        "dest": "flatpak-cargo/git/rdw-b35b39a"
+        "commit": "5b330c5f85f5cf45c2404eaef8b2e5023070ad7a",
+        "dest": "flatpak-cargo/git/rdw-5b330c5"
     },
     {
         "type": "archive",
@@ -775,7 +775,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/rdw-b35b39a/cbindgen\" \"cargo/vendor/cbindgen\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/rdw-5b330c5/cbindgen\" \"cargo/vendor/cbindgen\""
         ]
     },
     {
@@ -4706,7 +4706,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/rdw-b35b39a/keycodemap\" \"cargo/vendor/rdw-keycodemap\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/rdw-5b330c5/keycodemap\" \"cargo/vendor/rdw-keycodemap\""
         ]
     },
     {
@@ -4724,7 +4724,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/rdw-b35b39a/rdw4\" \"cargo/vendor/rdw4\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/rdw-5b330c5/rdw4\" \"cargo/vendor/rdw4\""
         ]
     },
     {
@@ -4742,7 +4742,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/rdw-b35b39a/rdw4-rdp\" \"cargo/vendor/rdw4-rdp\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/rdw-5b330c5/rdw4-rdp\" \"cargo/vendor/rdw4-rdp\""
         ]
     },
     {
@@ -4760,7 +4760,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/rdw-b35b39a/rdw4-spice\" \"cargo/vendor/rdw4-spice\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/rdw-5b330c5/rdw4-spice\" \"cargo/vendor/rdw4-spice\""
         ]
     },
     {
@@ -4778,7 +4778,7 @@
     {
         "type": "shell",
         "commands": [
-            "cp -r --reflink=auto \"flatpak-cargo/git/rdw-b35b39a/rdw4-vnc\" \"cargo/vendor/rdw4-vnc\""
+            "cp -r --reflink=auto \"flatpak-cargo/git/rdw-5b330c5/rdw4-vnc\" \"cargo/vendor/rdw4-vnc\""
         ]
     },
     {
@@ -7798,7 +7798,7 @@
     },
     {
         "type": "inline",
-        "contents": "[source.vendored-sources]\ndirectory = \"cargo/vendor\"\n\n[source.crates-io]\nreplace-with = \"vendored-sources\"\n\n[source.\"https://gitlab.gnome.org/theCapypara/rdw\"]\ngit = \"https://gitlab.gnome.org/theCapypara/rdw\"\nreplace-with = \"vendored-sources\"\nrev = \"b35b39a1419da824951bd0589b527c412e6829e5\"\n",
+        "contents": "[source.vendored-sources]\ndirectory = \"cargo/vendor\"\n\n[source.crates-io]\nreplace-with = \"vendored-sources\"\n\n[source.\"https://gitlab.gnome.org/theCapypara/rdw\"]\ngit = \"https://gitlab.gnome.org/theCapypara/rdw\"\nreplace-with = \"vendored-sources\"\nrev = \"5b330c5f85f5cf45c2404eaef8b2e5023070ad7a\"\n",
         "dest": "cargo",
         "dest-filename": "config"
     }
