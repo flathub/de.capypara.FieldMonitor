@@ -6,18 +6,8 @@
   "sdk-extensions": [
     "org.freedesktop.Sdk.Extension.rust-stable"
   ],
-  "add-extensions": {
-    "org.freedesktop.Platform.ffmpeg-full": {
-      "directory": "lib/ffmpeg",
-      "version": "24.08",
-      "add-ld-path": ".",
-      "no-autodownload": false,
-      "autodelete": false
-    }
-  },
   "command": "de.capypara.FieldMonitor",
   "finish-args": [
-    "--talk-name=org.freedesktop.secrets",
     "--share=network",
     "--share=ipc",
     "--socket=fallback-x11",
@@ -25,7 +15,6 @@
     "--device=dri",
     "--socket=wayland",
     "--socket=pulseaudio",
-    "--filesystem=xdg-run/pipewire-0",
     "--filesystem=~/.ssh/known_hosts:ro",
     "--filesystem=xdg-run/libvirt",
     "--filesystem=/run/libvirt"
@@ -48,13 +37,11 @@
     "*.a"
   ],
   "cleanup-commands": [
-    "mkdir -p /app/lib/ffmpeg",
     "rm -rf /app/var/run/libvirt",
     "mkdir -p /app/var/run",
     "ln -s /var/run/libvirt /app/var/run/libvirt"
   ],
   "modules": [
-    "shared-modules/libusb/libusb.json",
     {
       "name": "usbredir",
       "buildsystem": "meson",
@@ -277,8 +264,8 @@
         {
           "type": "git",
           "url": "https://github.com/theCapypara/field-monitor.git",
-          "commit": "8e32e0b982f04925883fda009abf3ec0fed4e787",
-          "tag": "v49.0"
+          "commit": "287f100f095e8a3f6f2a0fadfa65d9db1fbe5d91",
+          "tag": "v49.1"
         },
         "cargo-sources.json",
         {
