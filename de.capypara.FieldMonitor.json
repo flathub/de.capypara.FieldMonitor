@@ -275,8 +275,8 @@
         {
           "type": "git",
           "url": "https://github.com/theCapypara/field-monitor.git",
-          "commit": "f289a1c8e177a4202da95234ff9fdbc338039b4e",
-          "tag": "v50.0"
+          "commit": "9c723f5cb174676bf9b593ab58264a176df91ae3",
+          "tag": "v50.1"
         },
         "cargo-sources.json",
         {
